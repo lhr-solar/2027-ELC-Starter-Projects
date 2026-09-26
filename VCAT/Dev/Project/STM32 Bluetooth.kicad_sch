@@ -2456,6 +2456,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32WB:STM32WB55CEUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3631,6 +3746,225 @@
 						)
 					)
 					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5204,6 +5538,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 29.21 161.29)
+		(end 64.77 176.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "04999aa2-1451-42c7-8f60-6aeee48ae462")
+	)
+	(rectangle
+		(start 69.85 166.37)
+		(end 101.6 171.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "28074466-6950-41d0-9adc-53b8af8dd4dc")
+	)
 	(text "Tag-Connect SWD Header\n"
 		(exclude_from_sim no)
 		(at 68.58 148.59 0)
@@ -5357,6 +5715,12 @@
 		(uuid "3c23c993-6f6b-4259-82cd-395a9be2fea1")
 	)
 	(junction
+		(at 41.91 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43063a38-7ce5-41e2-a25c-03d097ce41bc")
+	)
+	(junction
 		(at 104.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5379,6 +5743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4db0968c-524f-42c8-b67d-edea76a0e3df")
+	)
+	(junction
+		(at 34.29 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519ddd15-5721-4af7-9938-29ac30f90043")
 	)
 	(junction
 		(at 92.71 77.47)
@@ -5445,6 +5815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9691e919-ad50-43e0-a02c-5575ad749894")
+	)
+	(junction
+		(at 49.53 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c3006cc-0817-41c0-96ad-2a9633fef4a3")
 	)
 	(junction
 		(at 172.72 71.12)
@@ -6332,6 +6708,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 172.72) (xy 49.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67621b4b-acd3-4fb2-b33f-26e2cc1999e1")
+	)
+	(wire
+		(pts
 			(xy 199.39 110.49) (xy 199.39 135.89)
 		)
 		(stroke
@@ -6442,6 +6828,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 168.91) (xy 58.42 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791c9869-a6f0-4324-a0b7-a4c5aa16c32d")
+	)
+	(wire
+		(pts
 			(xy 130.81 157.48) (xy 130.81 160.02)
 		)
 		(stroke
@@ -6502,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 168.91) (xy 34.29 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f0d2ac-51b5-45e3-b5b2-48f839a353ca")
+	)
+	(wire
+		(pts
 			(xy 109.22 101.6) (xy 113.03 101.6)
 		)
 		(stroke
@@ -6529,6 +6935,16 @@
 			(type default)
 		)
 		(uuid "85e80500-f6f7-4538-98b2-44dcd4161361")
+	)
+	(wire
+		(pts
+			(xy 41.91 168.91) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c64bc5-c427-40a6-a4b2-b836d4865388")
 	)
 	(wire
 		(pts
@@ -6699,6 +7115,16 @@
 			(type default)
 		)
 		(uuid "a017ef23-2b1a-45c9-beb6-ba914a381fe8")
+	)
+	(wire
+		(pts
+			(xy 34.29 172.72) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e8404b-88dd-49ec-aced-c145e285ddc6")
 	)
 	(wire
 		(pts
@@ -7042,6 +7468,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 172.72) (xy 58.42 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80958bf-1965-466a-8854-dfa846fbe364")
+	)
+	(wire
+		(pts
 			(xy 58.42 69.85) (xy 69.85 69.85)
 		)
 		(stroke
@@ -7109,6 +7545,16 @@
 			(type default)
 		)
 		(uuid "de90e40e-d9c6-4618-a250-10d7b8cbc383")
+	)
+	(wire
+		(pts
+			(xy 49.53 168.91) (xy 49.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df162002-117e-40be-b309-1098a07edd87")
 	)
 	(wire
 		(pts
@@ -7330,6 +7776,16 @@
 		)
 		(uuid "0addbadc-cb37-458e-9f28-f7b79dc155df")
 	)
+	(label "USB_D-"
+		(at 44.45 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19fabcdb-dcb1-4cac-9a29-9e709d1f8f61")
+	)
 	(label "SWD_NRST"
 		(at 180.34 71.12 0)
 		(effects
@@ -7339,6 +7795,16 @@
 			(justify left bottom)
 		)
 		(uuid "23a1dde5-cd6d-4281-9f07-7e11e349ac65")
+	)
+	(label "Fiducial Markers"
+		(at 72.39 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ab6dbdb-bc12-40b3-8699-f91108f40408")
 	)
 	(label "SWD_CLK"
 		(at 109.22 119.38 0)
@@ -7379,6 +7845,16 @@
 			(justify left bottom)
 		)
 		(uuid "65020458-e844-47a1-afa2-161b065aa99e")
+	)
+	(label "USB_D+"
+		(at 44.45 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b728fcd-ce15-4a65-b8c7-6ee9fa329cf7")
 	)
 	(label "SWD_TRC"
 		(at 109.22 134.62 0)
@@ -7539,6 +8015,16 @@
 			(justify left bottom)
 		)
 		(uuid "f525ee3a-6c27-4545-918e-94a41b21193c")
+	)
+	(label "Mounting Holes M3"
+		(at 31.75 161.29 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7eb5db4-5e25-4666-8fcc-cc393ab9da1d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9607,6 +10093,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad5fd0c-4f81-4cd2-a442-dbf0ef8f8359")
+		(property "Reference" "H3"
+			(at 52.07 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 52.07 166.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f28dca5-b15f-4ca3-97df-57e2ff4e28a4")
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 88.9 90)
 		(unit 1)
@@ -9680,6 +10246,83 @@
 			(project "STM32 Bluetooth"
 				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 93.98 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "524214e6-60b5-4423-bbb4-bfe1dc57905e")
+		(property "Reference" "FM3"
+			(at 96.52 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 96.52 170.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "FM3")
 					(unit 1)
 				)
 			)
@@ -9765,6 +10408,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 58.42 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "549fe016-da39-4623-a70d-e39b2eda825b")
+		(property "Reference" "H4"
+			(at 60.96 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 60.96 166.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 58.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 58.42 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1260770e-5045-4289-8c62-e79cf4901961")
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 52.07 0)
 		(unit 1)
@@ -9840,6 +10563,85 @@
 			(project "STM32 Bluetooth"
 				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 34.29 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b04717-bb5e-4ea9-8053-3b6544458e29")
+		(property "Reference" "#PWR028"
+			(at 34.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97409616-15bd-43b7-a548-d86fb19a3da6")
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10076,6 +10878,83 @@
 			(project "STM32 Bluetooth"
 				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 72.39 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61990e54-cb6b-4d99-b370-894b52ae3f6f")
+		(property "Reference" "FM1"
+			(at 74.93 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 74.93 170.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 72.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 72.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "FM1")
 					(unit 1)
 				)
 			)
@@ -10331,7 +11210,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 270.51 104.14 0)
+		(at 269.24 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10342,7 +11221,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a26568a-4249-4cf3-a27f-fec80483338d")
 		(property "Reference" "J4"
-			(at 274.32 103.1632 0)
+			(at 273.05 105.7032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10353,7 +11232,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 274.32 105.7032 0)
+			(at 273.05 108.2432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10364,7 +11243,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 270.51 104.14 0)
+			(at 269.24 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10375,7 +11254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 104.14 0)
+			(at 269.24 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +11265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 104.14 0)
+			(at 269.24 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10898,6 +11777,163 @@
 			(project "STM32 Bluetooth"
 				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 83.82 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897d1259-f91d-41ee-9c66-dbe233f499a1")
+		(property "Reference" "FM2"
+			(at 86.36 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 86.36 170.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 83.82 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 83.82 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "FM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b85ec5b-ff5e-496f-8649-2dd86826fb5d")
+		(property "Reference" "H1"
+			(at 36.83 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 36.83 166.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87b9d429-c1d4-4327-af29-3148e506caba")
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12202,6 +13238,86 @@
 			(project "STM32 Bluetooth"
 				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da25aeac-6974-437f-a469-f1cc5f759d2e")
+		(property "Reference" "H2"
+			(at 44.45 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 44.45 166.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 41.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c851327-d919-431d-8e4d-1b0f4fd0964d")
+		)
+		(instances
+			(project "STM32 Bluetooth"
+				(path "/670cd4a9-22bd-459a-b662-695c0176d6d2"
+					(reference "H2")
 					(unit 1)
 				)
 			)
