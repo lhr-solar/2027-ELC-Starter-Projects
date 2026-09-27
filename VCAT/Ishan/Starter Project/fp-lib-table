@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "starterProjectFootprintLibrary") (type "KiCad") (uri "${KIPRJMOD}/Symbols/starterProjectFootprintLibrary.pretty") (options "") (descr "") (disabled))
+	(lib (name "starterProjectLibraryFootprints") (type "KiCad") (uri "${KIPRJMOD}/Footprints/starterProjectLibraryFootprints.pretty") (options "") (descr ""))
+)

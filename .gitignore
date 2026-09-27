@@ -65,3 +65,4 @@ Zone.Identifier
 .vscode/*
 !.vscode/c_cpp_properties.json
 compile_commands.json
+.history/
