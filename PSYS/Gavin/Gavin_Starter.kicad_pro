@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.5,
+          "width": 0.22
         }
       ],
       "drc_exclusions": [],
@@ -157,11 +162,11 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.65,
+        "min_via_diameter": 0.66,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -215,6 +220,7 @@
         0.2,
         0.3,
         0.5,
+        0.75,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -545,44 +551,44 @@
       {
         "bus_width": 12,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(41, 61, 255)",
         "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(41, 61, 255)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 22, 54)",
         "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 22, 54)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 194, 194)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 194)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
         "name": "SWD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 153, 0)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 255)",
         "tuning_profile": "",
         "wire_width": 6
       }
